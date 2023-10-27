@@ -27,3 +27,7 @@ https://drive.google.com/file/d/11xw8XUPPMWz_babnNe7B2qriffAxANgG/view?usp=drive
 
 *** For more details on fall detection, please check the paper! ***
 
+
+##Commit
+- new version: Add line module that is send fall msg to line app using line protocol
+
