@@ -1,0 +1,12 @@
+
+{% extends 'layout.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h2>Home Page</h2>
+<p>'홈캠 접속' 버튼을 눌러 홈캠에 접속</p>
+<form action="{{ url_for('stream')}}", method="POST">
+  <input class="home_submit" type=submit value="홈캠 접속">
+</form>
+{% endblock %}

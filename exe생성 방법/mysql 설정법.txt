@@ -1,0 +1,3 @@
+기존에 mysql이 설치돼 있을 경우 mysql --install을 하면 이미 설치돼 있다고 뜬다. 그렇기 때문에 새로운 mysql 설치경로를 적어줘야하는데 
+수동으로 설치하려는 msyql파일의 bin에 들어가서 mysql --install mysql2(원하는이름)  명령어를 이용하여 새로운 mysql2라는 서비스를 생성 및 서버 경로를 변경해준다. 이후 net stop mysql 로 이전에 설치돼 있는 mysql 서비스를 종료시킨 후
+net start mysql2 명령어를 실행시키면 새로운 경로로 설정이 가능하다.

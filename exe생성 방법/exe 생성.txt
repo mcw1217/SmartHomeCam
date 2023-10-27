@@ -1,0 +1,3 @@
+pyinstaller -F --uac-admin install.py 
+
+관리자 권한으로 실행하는 exe 파일 생성 명령어
